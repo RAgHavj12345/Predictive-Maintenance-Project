@@ -101,7 +101,7 @@ This project was supported by the following IBM SkillsBuild programs:
 ![LangChain Certificate](assets/certificate1.png)
 
 #### ✅ Getting Started with Artificial Intelligence  
-![AI Certificate](assets/certificate2.png)
+![AI Certificate](getting_started_ai_credly_page-0001.jpg)
 
 #### ✅ Journey to Cloud: Envisioning Your Solution  
 ![Cloud Certificate](assets/certificate3.png)
