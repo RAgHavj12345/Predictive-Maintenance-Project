@@ -1,136 +1,137 @@
 # 🔧 Predictive Maintenance of Industrial Machinery using IBM Watsonx.ai
 
-This repository contains the assets and documentation for a capstone project focused on predicting industrial machinery failures using machine learning, using IBM Watsonx.ai on the IBM Cloud platform.
+This repository contains the code, assets, and documentation for a capstone project focused on predicting industrial machinery failures using machine learning, deployed on the IBM Cloud platform via Watsonx.ai.
 
 ---
 
 ## 📌 1. Problem Statement
 
-The core objective of this project is to build a robust predictive maintenance system for industrial machinery. The aim is to **predict equipment failures before they occur** by analyzing real-time sensor data. This facilitates **proactive maintenance**, thereby reducing downtime and operational costs.
+The goal is to build a robust predictive maintenance system for industrial equipment. By analyzing real-time sensor data, the model anticipates potential equipment failures before they occur. This proactive approach aims to:
+
+- Reduce operational costs  
+- Increase equipment uptime  
+- Minimize unscheduled downtime  
 
 ---
 
 ## 💡 2. Proposed Solution
 
-To solve the problem effectively, we developed a **high-accuracy classification model** using **automated machine learning (AutoML)** powered by IBM Watsonx.ai.
+We used IBM Watsonx.ai's **AutoAI** capability to automate the development of a machine learning pipeline. The AutoML system handles:
 
-This approach leverages the **AutoAI** feature to:
-
-- Automatically preprocess the data  
-- Select the most suitable algorithm  
-- Build and optimize multiple model pipelines
+- Data preprocessing  
+- Feature selection  
+- Algorithm comparison  
+- Hyperparameter tuning  
+- Model evaluation & optimization  
 
 ---
 
 ## 🛠️ 3. System Development Approach
 
-The system was developed entirely on the **IBM Cloud**, using the following tools and workflow:
+This project was developed entirely on **IBM Cloud**, using the following tools and steps:
 
 **Platform:** IBM Watsonx.ai  
-**Tool:** AutoAI in Watson Studio
+**Tool Used:** AutoAI within Watson Studio
 
-### 📂 Workflow:
+### 📂 End-to-End Workflow:
 
 1. **Data Ingestion**  
    Upload the predictive maintenance dataset to the IBM Cloud project.
 
-2. **Automated Model Building**  
-   Configure and execute an AutoAI experiment to evaluate multiple ML pipelines.
+2. **Model Building**  
+   Use AutoAI to automatically generate and evaluate multiple machine learning pipelines.
 
 3. **Model Selection**  
-   Choose the top-performing pipeline based on performance metrics such as accuracy and F1 score.
+   Select the top-performing model pipeline based on evaluation metrics.
 
 4. **Deployment**  
-   Deploy the best model as a **web service** in a Watsonx deployment space for real-time predictions.
+   Deploy the selected model as a live web service via Watson Machine Learning.
 
 ---
 
 ## 🧠 4. Algorithm & Model Selection
 
-Among the models evaluated by AutoAI, the **Gradient Boosting Classifier** achieved the best performance, with a leaderboard Rank #1 and an impressive **accuracy of 99.6%**.
+AutoAI determined that the **Gradient Boosting Classifier** performed best, with:
+
+- **Accuracy:** 99.6%  
+- **Rank:** #1 on AutoAI leaderboard  
+
+This model was chosen based on evaluation metrics including precision, recall, and F1-score.
 
 ---
 
 ## 📊 5. Model Performance
 
-The model demonstrated excellent performance on the test set:
+The model showed high accuracy across various failure types:
 
-- Accurately classified thousands of *"No Failure"* cases  
-- Correctly identified critical failure types like:
-  - Heat Dissipation Failure
-  - Power Failure
+- ✅ Thousands of *"No Failure"* predictions were correctly classified  
+- ✅ Accurately detected specific failure types, including:  
+  - Heat Dissipation Failure  
+  - Power Failure  
 
 ### 🔍 Key Predictive Features:
 
 - Torque  
 - Rotational Speed  
-- Tool Wear
+- Tool Wear  
 
-These features were found to be the most influential in predicting machine failure events.
+These were the top contributing features based on model explainability metrics.
 
 ---
 
-## 🚀 6. Deployment & Results
+## 🚀 6. Deployment & Live Results
 
-The final model was deployed as a **real-time web service** on IBM Cloud. It was tested successfully with live sensor input, and accurately predicted a *"No Failure"* status with high confidence.
+The final model was deployed as a **live web service** on IBM Cloud. When tested with real-time sensor input, it confidently predicted `"No Failure"` outcomes with high reliability.
 
 ---
 
 ## ✅ 7. Conclusion
 
-A highly accurate and production-ready machine learning model was developed for predictive maintenance of industrial machines. Key achievements include:
+This project successfully demonstrates:
 
-- Real-time prediction of failure types
-- Deployment as a cloud-based web service
-- Enabling of **proactive maintenance** strategies
-- Reduction in operational disruptions and costs
+- High-accuracy ML-based predictive maintenance  
+- Full automation of model building and deployment using IBM Watsonx.ai  
+- Real-world readiness for industrial IoT environments  
 
 ---
 
 ## 🔭 8. Future Scope
 
-Opportunities for future improvements include:
+The system can be further extended to:
 
-- **Live Data Integration**  
-  Integrate the model with real-time machine telemetry.
-
-- **Remaining Useful Life (RUL) Prediction**  
-  Extend the solution to predict time-to-failure (RUL).
-
-- **Prescriptive Maintenance**  
-  Recommend specific maintenance actions based on predictions.
-
-- **Fleet Dashboard**  
-  Build an interactive dashboard to visualize equipment status and health metrics.
+- 🔄 Integrate with live industrial data streams  
+- ⏱️ Predict Remaining Useful Life (RUL)  
+- 🧠 Offer prescriptive maintenance recommendations  
+- 📊 Visualize machine health via a real-time dashboard  
 
 ---
 
 ## 🧪 9. Certifications & Skills Acquired
 
-This project is backed by hands-on training and certifications from IBM SkillsBuild:
+The following certifications were completed as part of this project through **IBM SkillsBuild**:
 
-- ✅ **Getting Started with Artificial Intelligence**  
-- ✅ **Journey to Cloud: Envisioning Your Solution**  
-- ✅ **Lab: Retrieval Augmented Generation with LangChain**
+- **Getting Started with Artificial Intelligence**  
+- **Journey to Cloud: Envisioning Your Solution**  
+- **Lab: Retrieval Augmented Generation with LangChain**
 
-### 🖼️ Certificate Previews:
+### 🖼️ Certificate Previews
 
-#### Lab: Retrieval Augmented Generation with LangChain  
+#### 🧠 Lab: Retrieval Augmented Generation with LangChain  
 ![LangChain Certificate](certificates/certificate_lab_retrieval.jpg)
 
-#### Getting Started with Artificial Intelligence  
+#### 🤖 Getting Started with Artificial Intelligence  
 ![AI Certificate](certificates/getting_started_ai.jpg)
 
-#### Journey to Cloud: Envisioning Your Solution  
+#### ☁️ Journey to Cloud: Envisioning Your Solution  
 ![Cloud Certificate](certificates/journey_to_cloud.jpg)
-
-> ℹ️ Ensure all certificate images are stored in a folder named `certificates/` in the root of your repo.
 
 ---
 
 ## 📚 10. References
 
 - **Dataset**: [Predictive Maintenance Classification Dataset on Kaggle](https://www.kaggle.com/datasets)  
-- **Project Source**: IBM SkillsBuild for Academia in collaboration with Edunet Foundation
+- **Project Source**: Provided by **IBM SkillsBuild for Academia** & **Edunet Foundation**  
 
 ---
+
+> © 2025 — Built with IBM Watsonx.ai and real-world industrial data. Contributions welcome.
