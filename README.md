@@ -98,7 +98,7 @@ This project was supported by the following IBM SkillsBuild programs:
 ### 🖼️ Certificate Previews:
 
 #### ✅ Lab: Retrieval Augmented Generation with LangChain  
-![LangChain Certificate](assets/certificate1.png)
+![LangChain Certificate](certificate_lab retrevial_page.jpg)
 
 #### ✅ Getting Started with Artificial Intelligence  
 ![AI Certificate](getting_started_ai_credly_page-0001.jpg)
