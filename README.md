@@ -104,7 +104,7 @@ This project was supported by the following IBM SkillsBuild programs:
 ![AI Certificate](getting_started_ai_credly_page-0001.jpg)
 
 #### ✅ Journey to Cloud: Envisioning Your Solution  
-![Cloud Certificate](assets/certificate3.png)
+![Cloud Certificate](Journey_to_Cloudcredly.jpg)
 
 ---
 
