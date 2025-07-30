@@ -123,7 +123,7 @@ The following certifications were completed as part of this project through **IB
 ![AI Certificate](certificates/getting_started_ai.jpg)
 
 #### ☁️ Journey to Cloud: Envisioning Your Solution  
-![Cloud Certificate](certificates/journey_to_cloud.jpg)
+![Cloud Certificate](certificates/Journey_to_Cloudcredly.jpg)
 
 ---
 
