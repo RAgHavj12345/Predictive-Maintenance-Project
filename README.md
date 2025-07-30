@@ -117,10 +117,10 @@ The following certifications were completed as part of this project through **IB
 ### 🖼️ Certificate Previews
 
 #### 🧠 Lab: Retrieval Augmented Generation with LangChain  
-![LangChain Certificate](certificates/certificate_lab_retrieval.jpg)
+![LangChain Certificate](certificates/certificate_lab retrevial_page.jpg)
 
 #### 🤖 Getting Started with Artificial Intelligence  
-![AI Certificate](certificates/getting_started_ai.jpg)
+![AI Certificate](certificates/getting_started_ai_credly_page-0001.jpg)
 
 #### ☁️ Journey to Cloud: Envisioning Your Solution  
 ![Cloud Certificate](certificates/Journey_to_Cloudcredly.jpg)
