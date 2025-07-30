@@ -108,22 +108,22 @@ The system can be further extended to:
 
 ## 🧪 9. Certifications & Skills Acquired
 
-The following certifications were completed as part of this project through **IBM SkillsBuild**:
+The following certifications were completed through **IBM SkillsBuild** as part of this project:
 
 - **Getting Started with Artificial Intelligence**  
 - **Journey to Cloud: Envisioning Your Solution**  
 - **Lab: Retrieval Augmented Generation with LangChain**
 
-### 🖼️ Certificate Previews
+### 🖼️ Certificate Previews (Resized)
 
 #### 🧠 Lab: Retrieval Augmented Generation with LangChain  
-![LangChain Certificate](certificates/certificate_lab retrevial_page.jpg)
+<img src="certificates/certificate_lab_retrieval_page.jpg" alt="LangChain Certificate" width="500"/>
 
 #### 🤖 Getting Started with Artificial Intelligence  
-![AI Certificate](certificates/getting_started_ai_credly_page-0001.jpg)
+<img src="certificates/getting_started_ai_credly_page-0001.jpg" alt="AI Certificate" width="500"/>
 
 #### ☁️ Journey to Cloud: Envisioning Your Solution  
-![Cloud Certificate](certificates/Journey_to_Cloudcredly.jpg)
+<img src="certificates/journey_to_cloudcredly.jpg" alt="Cloud Certificate" width="500"/>
 
 ---
 
